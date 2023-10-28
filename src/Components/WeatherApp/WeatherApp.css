@@ -13,5 +13,20 @@
     padding-top: 60px;
 }
 .top-bar input{
+    display: flex;
+    width:362px;
+    height:78px;
+    background: #ebfffc;
+    border: none;
+    outline:none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color:#626262;
+    font-size: 1.7rem;
+    font-weight: 400px;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
     
 }
