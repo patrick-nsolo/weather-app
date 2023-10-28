@@ -35,3 +35,22 @@
     border-radius: 40px;
     cursor: pointer;
 }
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 120px;
+    font-weight: 400;
+}
+.weather-location{
+    display:flex;
+    justify-content:center;
+    color:#ffffff;
+    font-size:60px;
+    font-weight: 400;
+}
