@@ -10,9 +10,13 @@ import snow_icon from '../Assets/snow.png';
 import wind_icon from '../Assets/wind.png';
 import humidity_icon from '../Assets/humidity.png';
 
-function WeatherApp = () => {
+const WeatherApp = () => {
     let api_key = '2527b603cfc4c9a59ef3f0b9b965baa3';
-    
+
+    const search = () =>{
+        
+    }
+
   return (
     <div className='container'>
       <div className='top-bar'>
