@@ -19,6 +19,10 @@ function WeatherApp() {
             <img src={search_icon} alt=''/>
         </div>
       </div>
+      <div className='weather-image'>
+        <img src={cloud_icon} alt=''/>
+      </div>
+      <div className='weather-temp'></div>
     </div>
   )
 }
