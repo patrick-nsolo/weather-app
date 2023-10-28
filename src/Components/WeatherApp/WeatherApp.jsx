@@ -22,9 +22,13 @@ function WeatherApp() {
       <div className='weather-image'>
         <img src={cloud_icon} alt=''/>
       </div>
-      <div className='weather-temp'></div>
+      <div className='weather-temp'>24°c</div>
+      <div className='weather-location'>London</div>
+      <div className='data-container'>
+        
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default WeatherApp
+export default WeatherApp;
