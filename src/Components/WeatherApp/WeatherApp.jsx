@@ -14,14 +14,19 @@ const WeatherApp = () => {
     let api_key = '2527b603cfc4c9a59ef3f0b9b965baa3';
 
     const search = () =>{
-        
+        const element =document.getElementsByClassName('cityInput');
+        if (element[0].value==='')
+        {
+            return 0
+        }
+
     }
 
   return (
     <div className='container'>
       <div className='top-bar'>
         <input type='text' className='cityInput' placeholder='Enter City Name'/>
-        <div className='search-icon'>
+        <div className='search-icon' onClick={() => {search()}}>
             <img src={search_icon} alt=''/>
         </div>
       </div>
