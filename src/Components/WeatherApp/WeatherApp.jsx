@@ -40,6 +40,14 @@ const WeatherApp = () => {
         {
             setWicon(clear_icon);
         }
+        else if (data.weather[0].icon==='02d' || data.weather[0].icon==='02n')
+        {
+          setWicon(cloud_icon);
+        }
+        else if (data.weather[0].icon==='03d' || data.weather[0].icon==='03n')
+        {
+          setWicon(drizzle_icon);
+        }
     }
 
   return (
