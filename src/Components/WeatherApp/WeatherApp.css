@@ -95,5 +95,8 @@
         width: 200px;
         font-size: 1rem;
     }
-
+    .weather-image{
+        height:100px;
+        
+    }
 }
