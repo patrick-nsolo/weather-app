@@ -13,13 +13,17 @@ import humidity_icon from '../Assets/humidity.png';
 const WeatherApp = () => {
     let api_key = '2527b603cfc4c9a59ef3f0b9b965baa3';
 
-    const search = () =>{
+    const search = async () =>{
         const element =document.getElementsByClassName('cityInput');
         if (element[0].value==='')
         {
-            return 0
+            return 0;
         }
-
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Metric&appid=${api_key}`;
+        let response = await fetch(url);
+        let data = await response.json();
+        const humidity =document.getElementsByClassName('humidity-percentage');
+        const wind = document.getElementsByClassName('')
     }
 
   return (
