@@ -52,7 +52,15 @@ const WeatherApp = () => {
         {
           setWicon(drizzle_icon);
         }
-        else if (data.weather[0].icon==='02d' || data.weather[0].icon==='02n')
+        else if (data.weather[0].icon==='09d' || data.weather[0].icon==='09n')
+        {
+          setWicon(rain_icon);
+        }
+        else if (data.weather[0].icon==='10d' || data.weather[0].icon==='10n')
+        {
+          setWicon(rain_icon);
+        }
+        else if (data.weather[0].icon==='13d' || data.weather[0].icon==='13n')
         {
           setWicon(cloud_icon);
         }
