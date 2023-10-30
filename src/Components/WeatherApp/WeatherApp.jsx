@@ -35,6 +35,11 @@ const WeatherApp = () => {
         wind[0].innerHTML = data.wind.speed + ' Km/h';
         temperature[0].innerHTML = data.main.temp + ' °c';
         location[0].innerHTML = data.name;
+
+        if(data.weather[0].icon==='01d' || data.weather[0].icon==='01n')
+        {
+            setWicon(clear_icon);
+        }
     }
 
   return (
@@ -46,7 +51,7 @@ const WeatherApp = () => {
         </div>
       </div>
       <div className='weather-image'>
-        <img src={cloud_icon} alt=''/>
+        <img src={wicon} alt=''/>
       </div>
       <div className='weather-temp'>24°c</div>
       <div className='weather-location'>London</div>
