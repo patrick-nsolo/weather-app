@@ -1,3 +1,8 @@
+.outer-container{
+    background-image: linear-gradient(180deg,  #8e89aa 0%, #342e58 100%);
+    width:100%;
+    height:100%;
+}
 .container{
     width:1000px;
     height:600px;
