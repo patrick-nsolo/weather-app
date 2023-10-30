@@ -83,3 +83,11 @@
 .icon{
     margin-top: 10px;
 }
+@media(max-width:760px){
+    .container{
+        width: 350px;
+        margin-top: 10px;
+    }
+
+
+}
