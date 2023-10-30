@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './WeatherApp.css';
 
 import search_icon from '../Assets/search.png';
@@ -12,6 +12,8 @@ import humidity_icon from '../Assets/humidity.png';
 
 const WeatherApp = () => {
     let api_key = '2527b603cfc4c9a59ef3f0b9b965baa3';
+
+    const[wicon,setWicon] = useState(cloud_icon);
 
     const search = async () =>{
         const element =document.getElementsByClassName('cityInput');
