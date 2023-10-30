@@ -35,12 +35,12 @@
     border-radius: 40px;
     cursor: pointer;
 }
-.weather-image{
+.weather-imae{
     margin-top: 29px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
-.weather-temp{
+.weather-tep{
     display: flex;
     justify-content: center;
     color: #ffffff;
