@@ -32,7 +32,7 @@ const WeatherApp = () => {
         const location = document.getElementsByClassName('weather-location');
 
         humidity[0].innerHTML = data.main.humidity + ' %';
-        wind[0].innerHTML = data.wind.speed + ' Km/h';
+        wind[0].innerHTML = Math.floor(data.wind.speed) + ' Km/h';
         temperature[0].innerHTML = data.main.temp + ' °c';
         location[0].innerHTML = data.name;
 
@@ -62,7 +62,11 @@ const WeatherApp = () => {
         }
         else if (data.weather[0].icon==='13d' || data.weather[0].icon==='13n')
         {
-          setWicon(cloud_icon);
+          setWicon(snow_icon);
+        }
+        else
+        {
+          setWicon(clear_icon);
         }
     }
 
