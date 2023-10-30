@@ -88,6 +88,12 @@
         width: 350px;
         margin-top: 10px;
     }
-
+    .top-bar{
+        padding-top: 20px;
+    }
+    .top-bar input{
+        width: 200px;
+        font-size: 1rem;
+    }
 
 }
