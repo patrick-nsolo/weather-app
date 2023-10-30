@@ -1,9 +1,9 @@
 .container{
     width:1000px;
-    height:100vh;
+    height:600px;
     margin:auto;
     margin-top: 50px;
-    border-radius: 12px;
+    border-radius: 20px;
     background-image: linear-gradient(180deg,  #130754 0%, #3b2f80 100%);
 }
 .top-bar{
@@ -38,9 +38,11 @@
 .weather{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
-.weather-imae{
-    margin-top: 29px;
+.weather-image{
+    margin-top: 20px;
     display: flex;
     justify-content: left;
 }
