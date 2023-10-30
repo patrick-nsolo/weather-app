@@ -86,7 +86,7 @@
 @media(max-width:760px){
     .container{
         width: 350px;
-        margin-top: 10px;
+        margin-top: 50px;
     }
     .top-bar{
         padding-top: 20px;
@@ -95,8 +95,15 @@
         width: 200px;
         font-size: 1rem;
     }
+    .weather{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
     .weather-image{
-        height:100px;
-        
+        height:140px;    
+    }
+    .weather-temp{
+        font-size: 4rem;
     }
 }
